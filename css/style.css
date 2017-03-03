@@ -1,0 +1,154 @@
+
+body{
+  
+  z-index:5;
+  background-color:#EAD5B5
+  
+}
+.container{
+  
+  width:305px;
+  height:305px;
+
+  position:relative;
+  border-radius:50%;
+  border:5px solid;
+  z-index:10;
+  overflow:hidden
+ 
+}
+
+#red{
+  width:150px;
+  height:150px;
+  position:absolute;
+  top:0%;
+  left:0%;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+  background-color:#9F0F17;
+  color:#9F0F17;
+ border:10px solid;
+
+}
+
+#blue{
+  width:150px;
+  height:150px;
+  position:absolute;
+  bottom:0%;
+  right:0%;
+  
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+  background-color:#094A8F;
+  color:#094A8F;
+  border:10px solid
+  
+}
+
+#yellow{
+ width:150px;
+  height:150px;
+  position:absolute;
+  right:0%;
+  top:0%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+  background-color:#CCA707;
+  color:#CCA707;
+  border:10px solid
+}
+
+#green{
+  width:150px;
+  height:150px;
+  position:absolute;
+  bottom:0%;
+  left:0%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+  background-color:#00A74A;
+  color:#00A74A;
+  border:10px solid
+ 
+}
+
+
+td{
+  
+  text-align:center;
+  padding-left:5px;
+   padding-right:5px;
+
+}
+
+table{
+  
+  margin-bottom:5px;
+}
+
+#centerDiv{
+  width:150px;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  position:absolute;
+  left:25%;
+  top:25%;
+  border:5px solid;
+  border-radius:50%;
+  z-index:2;
+  background-color:#ECE7EE
+  
+  
+}
+
+#toggleBtn{
+  font-size:80%
+  
+}
+
+#start{
+  width:15px;
+  height:15px;
+  background-color:red;
+  border-radius:50%;
+  border:2px solid black
+}
+
+#strict{
+  width:15px;
+  height:15px;
+  background-color:yellow;
+  border-radius:50%;
+  border:2px solid black;
+}
+
+button:active,button:focus{
+  
+  outline:none;
+}
+
+#victoryMssg{
+ width:150px;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  position:absolute;
+  left:25%;
+  top:25%;
+  border:5px solid;
+  border-radius:50%;
+  z-index:2;
+background-color:#ECE7EE;
+  display:none
+}

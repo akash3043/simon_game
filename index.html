@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>simongame</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+
+  <audio id="systemSound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+  <audio id="userSound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+  <audio id="error" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+  <button id="red">red</button>
+  <button id="yellow">yellow</button>
+  <button id="green">green</button>
+  <button id="blue">blue</button>
+  <div id="centerDiv">
+
+    <h4>Simon</h4>
+    <div id="buttonDiv">
+      <table>
+        <tr>
+
+          <td id="count">!!</td>
+          <td><button id="start"></button></td>
+          <td><button id="strict"></button></td>
+        </tr>
+        <tr>
+
+          <td>count</td>
+          <td>start</td>
+          <td>strict</td>
+        </tr>
+
+      </table>
+
+    </div>
+    <div id="toggleBtn">
+
+      <button id="reset">reset</button>
+
+
+
+    </div>
+
+
+  </div>
+  
+  <div id="victoryMssg">
+  
+    <h2>You Won!</h2>
+  
+  </div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
